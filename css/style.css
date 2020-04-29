@@ -47,7 +47,9 @@
     display: table;
     clear: both;
 }
-
+.dice{
+    border: 2px solid #EB4D4D;
+}
 body {
     background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4)), url(back.jpg);
     background-size: cover;
@@ -58,7 +60,6 @@ body {
     height: 100vh;
     color: #555;
 }
-
 .wrapper {
     width: 1000px;
     position: absolute;

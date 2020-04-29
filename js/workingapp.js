@@ -75,7 +75,6 @@ document.querySelector('.btn-hold').addEventListener('click', function (){
 
 function nextPlayer() {
     roundScores = 0;
-    diceDOM.style.display = 'none'; 
     document.querySelector('#current-' + activePlayer).textContent = 0;
     document.querySelector('.player-'+ activePlayer + '-panel').classList.toggle('active');
     activePlayer = activePlayer === 1 ? 0 : 1;
